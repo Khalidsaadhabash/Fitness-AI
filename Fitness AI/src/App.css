@@ -1,0 +1,32 @@
+.arrow-icon {
+    font-size: 24px;
+    line-height: 24px;
+    color: #4f4f4f;
+    cursor: pointer;
+    margin: 0 8px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .pagination a {
+    display: inline-block;
+    margin-right: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+    color: #4f4f4f;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4299e1;
+    color: #fff;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #e2e8f0;
+  }
