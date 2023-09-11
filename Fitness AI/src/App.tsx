@@ -12,26 +12,26 @@ const App: React.FC = () => {
     <>
     {/* <ExerciseDete/> */}
     
-    <Calculator/>
+    {/* <Calculator/> */}
     
     
-    
+    {/* <AuthProvider>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<LoginChat />} />
+        <Route
+          path="/chat"
+          element={
+            <PrivateRoute>
+              <ChatRoom />
+            </PrivateRoute>
+          }
+        />
+      </Routes>
+      </AuthProvider>
+       */}
     </>
-    // <AuthProvider>
-    //   <Navbar />
-    //   <Routes>
-    //     <Route path="/" element={<LoginChat />} />
-    //     <Route
-    //       path="/chat"
-    //       element={
-    //         <PrivateRoute>
-    //           <ChatRoom />
-    //         </PrivateRoute>
-    //       }
-    //     />
-    //   </Routes>
-    //   </AuthProvider>
-      
+  
   );
 };
 
