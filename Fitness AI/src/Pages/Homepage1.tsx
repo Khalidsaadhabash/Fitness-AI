@@ -1,6 +1,6 @@
 import Vedio from "../Imges/pexels-asma-alanzi-18331555 (2160p).mp4"
-import Footer from "../component/Footer";
-import Navbar from "../component/Navbar"
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar"
 
 export default function Homepage1() {
   return (

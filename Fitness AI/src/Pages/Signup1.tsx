@@ -3,8 +3,8 @@ import { useState } from 'react';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import Navbarmain from '../component/Navbarmain';
-import Footer from '../component/Footer';
+import Navbarmain from '../components/Navbarmain';
+import Footer from '../components/Footer';
 
 type userInfo ={
     userName:string;

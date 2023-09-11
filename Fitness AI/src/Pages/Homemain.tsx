@@ -1,5 +1,5 @@
 import Vedio from "../Imges/pexels-asma-alanzi-18331555 (2160p).mp4"
-import Footer from '../component/Footer'
+import Footer from '../components/Footer'
 export default function Homemain() {
   return (
 <div>
