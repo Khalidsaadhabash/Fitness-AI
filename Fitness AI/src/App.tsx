@@ -4,16 +4,17 @@ import Homepage1 from './Pages/Homepage1'
 import Login1 from './Pages/Login1'
 import Signup1 from './Pages/Signup1'
 import Homemain from './Pages/Homemain'
+import ExerciseDete from './Pages/ExerciseDete'
 function App() {
 return (
     <>
-<Routes>
+{/* <Routes>
         <Route path = "/" element={<Homemain/>}>
         </Route>
         <Route path = "/signup1" element={<Signup1/>}></Route>
         <Route path = "/Login1" element={<Login1/>}></Route>
         <Route path="/Homepage1" element={<Homepage1/>}/>
-   </Routes>
+   </Routes> */}
     </>
   )
 }

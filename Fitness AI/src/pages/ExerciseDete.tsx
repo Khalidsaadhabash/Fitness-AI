@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import ReactPaginate from 'react-paginate';
+// import ReactPaginate from 'react-paginate';
 import { Box, Button } from '@mui/material';
 
 interface Exercise {
@@ -93,7 +93,7 @@ const App: React.FC = () => {
             </div>
           ))}
       </div>
-      <ReactPaginate
+      {/* <ReactPaginate
          previousLabel="Previous"
             nextLabel="Next"
             breakLabel="..."
@@ -113,7 +113,7 @@ const App: React.FC = () => {
             activeLinkClassName="bg-blue-500 text-white"
             previousLinkClassName="px-3 py-1 rounded-md bg-white border border-gray-300 hover:bg-gray-200"
             nextLinkClassName="px-3 py-1 rounded-md bg-white border border-gray-300 hover:bg-gray-200"
-          />
+          /> */}
     </div>
   );
 };

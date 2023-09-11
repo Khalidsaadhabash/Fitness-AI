@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import axios from 'axios';
-import Swal from 'sweetalert2';
 import Vedio from "../Imges/production_id_4367573 (1080p).mp4";
 import Navbarmain from '../components/Navbarmain';
 import Footer from '../components/Footer';
+import Swal from 'sweetalert2';
 type userInfo ={
     userName:string;
     password: string; 
