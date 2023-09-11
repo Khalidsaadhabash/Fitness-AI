@@ -10,7 +10,7 @@ import Calculator from "./pages/Calculator";
 const App: React.FC = () => {
   return (
     <>
-    {/* <ExerciseDete/> */}
+    <ExerciseDete/>
     
     {/* <Calculator/> */}
     
