@@ -1,4 +1,3 @@
-import Vedio from "../Imges/pexels-asma-alanzi-18331555 (2160p).mp4"
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
 
@@ -14,7 +13,7 @@ export default function Homepage1() {
           
             </div>
         <video autoPlay muted loop className="absolute inset-0 h-screen w-screen object-cover">
-          <source src={Vedio} type="video/mp4" />
+          <source src="./src/Imges/production_id_4367573 (1080p).mp4" type="video/mp4" />
             </video>
         </div>
     

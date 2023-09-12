@@ -31,7 +31,7 @@ const App: React.FC = () => {
           method: 'GET',
           url: 'https://exercisedb.p.rapidapi.com/exercises',
           headers: {
-            //  'x-rapidapi-key': 'ecdd69af15mshe176c9d1be621aep1026fcjsn030fc117abc2',
+            'x-rapidapi-key': 'ecdd69af15mshe176c9d1be621aep1026fcjsn030fc117abc2',
             'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
           }
         };

@@ -115,6 +115,7 @@
 // src/App.tsx
 // src/App.tsx
 import React, { useState } from 'react';
+import Navbar from '../components/Navbar';
 
 const App: React.FC = () => {
   const [height, setHeight] = useState('');
@@ -175,8 +176,11 @@ const App: React.FC = () => {
   };
 
   return (
-  
+    <>
+    <Navbar/>
+    
     <div className="h-screen bg-gray-100 flex items-center justify-center">
+
       <div className="">
         <h1 className="text-3xl font-bold text-orange-500 mb-6">Fitness Calculator</h1>
         <form onSubmit={handleSubmit}>
@@ -224,6 +228,7 @@ const App: React.FC = () => {
       </div>
       
     </div>
+    </>
   );
 };
 

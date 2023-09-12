@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { UserAuth } from '../context/AuthContext'
+import { AuthProvider, UserAuth } from '../context/AuthContext'
 import { useNavigate } from 'react-router-dom'
 
 const LoginChat = () => {
@@ -9,6 +9,7 @@ const LoginChat = () => {
   const handleLogin = async () => {
     try {
       await signinWithGoogle();
+
     } catch(error) {
       console.log(error)
     }
@@ -16,12 +17,14 @@ const LoginChat = () => {
 
   useEffect(() => {
     if(currentUser) {
-      navigate("/chat")
+      navigate("/chatloginn")
     }
   }, [currentUser]);
 
   return (
+   
     <div className="hero min-h-screen bg-white">
+       <AuthProvider/>
       <div className="hero-content text-center">
         <div className="max-w-md">
         <div className="text-2xl font-bold text-slate-800 md:text-7xl">

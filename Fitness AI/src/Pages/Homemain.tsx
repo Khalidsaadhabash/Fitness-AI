@@ -1,17 +1,10 @@
 import Vedio from "../Imges/pexels-asma-alanzi-18331555 (2160p).mp4"
 import Footer from '../components/Footer'
+import Navbar from "../components/Navbar"
 export default function Homemain() {
   return (
 <div>
-<nav className="shadow-lg nav-container fixed top-0 w-full z-50 ">
-    <div className="md:flex items-center justify-between py-2 px-8 md:px-12">
-        <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold text-gray-100 md:text-3xl">
-            <p>Fitness <span className=' text-orange-400'>AI</span></p>
-            </div>
-        </div>
-    </div>
-</nav>
+<Navbar></Navbar>
 <div className="flex justify-center container my-auto w-auto h-screen items-center flex-col ml-auto">
     <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2 font-sans z-40 ">
                 <div>

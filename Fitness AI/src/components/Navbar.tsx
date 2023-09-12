@@ -41,9 +41,9 @@ export default function Navbar() {
             </div>
         </div>
         <div className="flex flex-col md:flex-row md:block -mx-2">
-            <a href="#" className="py-2 px-2 rounded bg-orange-500 text-gray-100  md:mx-2 font-bold bg-opacity-40 hover:bg-slate-400 hover:bg-opacity-30">Messages</a>
-            <a href="#" className="py-2 px-2 rounded bg-orange-500 text-gray-100  md:mx-2 font-bold bg-opacity-40  hover:bg-slate-400 hover:bg-opacity-30">Exercise lists</a>
-            <a href="#" className="py-2 px-2 rounded bg-orange-500 text-gray-100  md:mx-2 font-bold bg-opacity-40 hover:bg-slate-400 hover:bg-opacity-30" >calculate fitness </a>
+            <a href="/chatloginn" className="py-2 px-2 rounded bg-orange-500 text-gray-100  md:mx-2 font-bold bg-opacity-40 hover:bg-slate-400 hover:bg-opacity-30">Messages</a>
+            <a href="/ExerciseDete" className="py-2 px-2 rounded bg-orange-500 text-gray-100  md:mx-2 font-bold bg-opacity-40  hover:bg-slate-400 hover:bg-opacity-30">Exercise lists</a>
+            <a href="/Calculator" className="py-2 px-2 rounded bg-orange-500 text-gray-100  md:mx-2 font-bold bg-opacity-40 hover:bg-slate-400 hover:bg-opacity-30" >calculate fitness </a>
 <a href="./">
             <button className="text-gray-100 rounded  bg-orange-500 hover:bg-slate-500 hover:font-medium py-2 px-2 md:mx-2 font-bold focus:outline-none bg-opacity-40">
                 <svg className="h-4 w-6 fill-current" viewBox="0 4 17 7">

@@ -1,6 +1,7 @@
 import { createContext, useState, useContext, useEffect } from "react"
 import { GoogleAuthProvider, onAuthStateChanged, signInWithRedirect, signOut } from "firebase/auth";
 import { auth } from "../firebase"
+import LoginChat from "../Pages/LoginChat";
 
 interface AuthContextProps {
   currentUser: any;
@@ -13,7 +14,7 @@ interface AuthContextProps {
 const AuthContext = createContext<AuthContextProps | null>(null);
 
 // Provider Context
-export const AuthProvider = ({children  }) => {
+export const AuthProvider = ({children  }:any) => {
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
@@ -53,3 +54,10 @@ export const AuthProvider = ({children  }) => {
 export const UserAuth = () => {
   return useContext(AuthContext)!;
 }
+
+     
+ 
+  
+   
+ 
+ 
