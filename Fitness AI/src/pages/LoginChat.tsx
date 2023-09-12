@@ -21,14 +21,16 @@ const LoginChat = () => {
   }, [currentUser]);
 
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div className="hero min-h-screen bg-white">
       <div className="hero-content text-center">
         <div className="max-w-md">
-          <h1 className="text-5xl font-bold">Hello there 👋🏻</h1>
+        <div className="text-2xl font-bold text-slate-800 md:text-7xl">
+            <h1>Fitness <span className='  bg-orange-500 text-gray-100  md:mx-2 font-bold bg-opacity-40 hover:bg-slate-400 hover:bg-opacity-30'>AI</span></h1>
+            </div>
           <p className="py-6">
-          Join the conversation, meet new people, and make connections in one shared room.
+          Join the conversation, With specialized fitness trainers
           </p>
-          <button onClick={handleLogin} className="btn">Login With Google</button>
+          <button onClick={handleLogin} className="btn py-2 px-2 rounded bg-orange-700 text-gray-100  md:mx-2 font-bold bg-opacity-40 hover:bg-slate-400 hover:bg-opacity-30">Login With Google</button>
         </div>
       </div>
     </div>

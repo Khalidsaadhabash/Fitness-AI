@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 // import ReactPaginate from 'react-paginate';
 import { Box, Button } from '@mui/material';
+import Calculator from './Calculator';
 
 interface Exercise {
   id: string;
@@ -30,7 +31,7 @@ const App: React.FC = () => {
           method: 'GET',
           url: 'https://exercisedb.p.rapidapi.com/exercises',
           headers: {
-            'x-rapidapi-key': 'ecdd69af15mshe176c9d1be621aep1026fcjsn030fc117abc2',
+            //  'x-rapidapi-key': 'ecdd69af15mshe176c9d1be621aep1026fcjsn030fc117abc2',
             'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
           }
         };
@@ -63,8 +64,13 @@ const App: React.FC = () => {
   };
   const uniqueBodyParts = [...new Set(exercises.map((exercise) => exercise.bodyPart))];
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Fitness App</h1>
+    
+    <div className="container mx-auto p-4 bg-white">
+   
+      <div className="text-2xl font-bold text-gray-100 md:text-7xl">
+            <p className='text-black'>Fitness <span className=' text-orange-400'>AI</span></p>
+            </div>
+            <br></br>
      
       <div className="overflow-y-auto whitespace-nowrap mb-4 ">
         {uniqueBodyParts.map((bodyPart) => (
@@ -119,10 +125,5 @@ const App: React.FC = () => {
 };
 
 export default App;
-
-
-
-
-
 
 

@@ -2,6 +2,7 @@ import Message from "./Message";
 import { collection, query, onSnapshot, orderBy, limit } from "firebase/firestore";
 import { useEffect, useRef, useState } from "react";
 import { db } from "../firebase";
+import { UserAuth } from "../context/AuthContext";
 
 interface Message {
   id: string;
@@ -9,9 +10,12 @@ interface Message {
   // Add other properties of the message object
 }
 
+
 const ChatBox: React.FC = () => {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const [messages, setMassages] = useState<Message[]>([]);
+
+  
 
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
@@ -38,8 +42,12 @@ const ChatBox: React.FC = () => {
     return () => unsubscribe();
   }, []);
 
+ 
+
   return (
     <div className="pb-44 pt-20 containerWrap">
+      
+      
       {messages.map((message) => (
         <Message key={message.id} message={message} />
       ))}

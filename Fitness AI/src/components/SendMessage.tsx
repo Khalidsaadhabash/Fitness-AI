@@ -28,7 +28,15 @@ const SendMessage: React.FC = () => {
     }
     setValue("");
   };
+  const { logout}=UserAuth()
 
+  const handleLogeout =async ()=>{
+    try {
+       await logout()
+    } catch (error) {
+      console.log(error);
+      
+    }}
   return (
     <div className="bg-gray-200 fixed bottom-0 w-full py-10 shadow-lg">
       <form onSubmit={handleSendMessage} className="px-2 containerWrap flex">
@@ -44,7 +52,17 @@ const SendMessage: React.FC = () => {
         >
           Send
         </button>
+
+        <a className="btn btn-ghost normal-case text-lg text-slate-500">
+ {currentUser ?  <button onClick={handleLogeout}>Logout</button>:""}</a>
+
+  
+        
+
       </form>
+
+      
+      
     </div>
   );
 };
