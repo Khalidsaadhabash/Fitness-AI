@@ -14,7 +14,7 @@ Here is the same link, but as a [reference-style link][link-text].
 After pull :
 
 <span>
-  <li>cd "Fitness AI"</li>
-    <li>npm install</li>
-    <li>npm run dev</li>
+  <li><code>cd "Fitness AI </code>"</li>
+    <li> <code>npm install</code></li>
+    <li><code>npm run dev</code></li>
 </span>
