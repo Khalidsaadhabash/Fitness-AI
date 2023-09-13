@@ -1,7 +1,6 @@
 import Vedio from "../Video/pexels-asma-alanzi-18331555 (2160p).mp4"
 import Footer from '../components/Footer'
-import Navbar from "../components/Navbar"
-import Navbarmain from "../components/Navbarmain"
+
 export default function Homemain() {
   return (
 <div>

@@ -2,6 +2,10 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
 import Vedio from "../Video/pexels-asma-alanzi-18331555 (2160p).mp4"
 export default function Homepage1() {
+  // const Islogin = localStorage.getItem("Login")
+  // if (Islogin!=="True"){
+  //   location.href="/Login1"
+  // }
   return (
    
    

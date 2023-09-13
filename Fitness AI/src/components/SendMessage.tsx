@@ -38,23 +38,24 @@ const SendMessage: React.FC = () => {
       
     }}
   return (
-    <div className="bg-gray-200 fixed bottom-0 w-full py-10 shadow-lg">
+    <div className="bg-gray-300 flex fixed bottom-0 w-full py-10 shadow-lg">
       <form onSubmit={handleSendMessage} className="px-2 containerWrap flex">
         <input
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          className="input w-full focus:outline-none bg-gray-100 rounded-r-none"
+          className="input w-full focus:outline-none bg-gray-100 text-slate-950 input-bordered input-error   rounded-r-none"
           type="text"
         />
         <button
           type="submit"
-          className="w-auto bg-orange-200 text-slate-800 rounded-r-lg px-5 text-sm"
+          className="w-auto btn join-item rounded-r-lg text-white  px-5 text-sm bg-orange-300"
         >
           Send
         </button>
+        <div>
 
-        <a className="btn btn-ghost normal-case text-lg text-slate-600 bg-orange-200">
- {currentUser ?  <button onClick={handleLogeout}>Logout</button>:""}</a>
+        <a className="btn btn-ghost normal-case text-lg text-stone-100 bg-gray-500">
+ {currentUser ?  <button onClick={handleLogeout}>Logout</button>:""}</a></div>
 
   
         

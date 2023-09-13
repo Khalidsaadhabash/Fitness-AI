@@ -115,7 +115,6 @@
 // src/App.tsx
 // src/App.tsx
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
 import Navbarpages from '../components/Navbarpages';
 import Footer from '../components/Footer';
 
