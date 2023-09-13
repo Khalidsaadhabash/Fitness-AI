@@ -1,29 +1,6 @@
-import{ useState , useEffect} from 'react';
-import Calculator from '../Pages/Calculator';
 export default function Navbar() { 
+
     
-    
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [LoggedIn, setLoggedIn] = useState(false);
-    const [SignUp, setSignUp] = useState(true);
-
-    useEffect(() => {
-        if(localStorage.getItem('loginStatus')==='true'){
-            setLoggedIn(!LoggedIn);
-            setSignUp(!SignUp)
-       }
-      }, []);
-      const handleLog = () => {
-        setLoggedIn(LoggedIn);
-        setSignUp(SignUp)
-        localStorage.setItem('loginStatus','false');
-      };
-
-
-    const toggleMenu = () => {
-      setIsMenuOpen(!isMenuOpen);
-   
-    };
   return (
     <nav className="shadow-lg  nav-container fixed top-0 w-full z-50 ">
     <div className="md:flex items-center justify-between py-2 px-8 md:px-12">

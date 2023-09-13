@@ -2,7 +2,6 @@ import Message from "./Message";
 import { collection, query, onSnapshot, orderBy, limit } from "firebase/firestore";
 import { useEffect, useRef, useState } from "react";
 import { db } from "../firebase";
-import { UserAuth } from "../context/AuthContext";
 
 interface Message {
   id: string;
@@ -11,7 +10,7 @@ interface Message {
 }
 
 
-const ChatBox: React.FC = () => {
+const ChatBox: React.FC = (props:any) => {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const [messages, setMassages] = useState<Message[]>([]);
 
@@ -45,11 +44,11 @@ const ChatBox: React.FC = () => {
  
 
   return (
-    <div className="pb-44 pt-20 containerWrap">
+    <div className="h-100 bg-slate-50 pb-44 pt-20 containerWarp ">
       
       
       {messages.map((message) => (
-        <Message key={message.id} message={message} />
+        <Message  key={message.id} message={message } {...props} />
       ))}
       <div ref={messagesEndRef}></div>
     </div>

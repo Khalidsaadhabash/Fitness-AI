@@ -115,7 +115,8 @@
 // src/App.tsx
 // src/App.tsx
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
+import Navbarpages from '../components/Navbarpages';
+import Footer from '../components/Footer';
 
 const App: React.FC = () => {
   const [height, setHeight] = useState('');
@@ -177,7 +178,7 @@ const App: React.FC = () => {
 
   return (
     <>
-    <Navbar/>
+    <Navbarpages></Navbarpages>
     
     <div className="h-screen bg-gray-100 flex items-center justify-center">
 
@@ -228,6 +229,7 @@ const App: React.FC = () => {
       </div>
       
     </div>
+    <Footer></Footer>
     </>
   );
 };

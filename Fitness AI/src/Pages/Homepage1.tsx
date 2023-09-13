@@ -1,7 +1,11 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
-
+import Vedio from "../Video/pexels-asma-alanzi-18331555 (2160p).mp4"
 export default function Homepage1() {
+  // const Islogin = localStorage.getItem("Login")
+  // if (Islogin!=="True"){
+  //   location.href="/Login1"
+  // }
   return (
    
    
@@ -13,7 +17,7 @@ export default function Homepage1() {
           
             </div>
         <video autoPlay muted loop className="absolute inset-0 h-screen w-screen object-cover">
-          <source src="./src/Imges/production_id_4367573 (1080p).mp4" type="video/mp4" />
+          <source src={Vedio} type="video/mp4" />
             </video>
         </div>
     

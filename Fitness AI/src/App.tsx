@@ -40,39 +40,60 @@
   //      <Route path="/Homepage1" element={<Homepage1/>}/>
   // </Routes> */}
 
-
+  // import Homemain from "./Pages/Homemain"
+  // import Signup1 from "./Pages/Signup1"
+  // import Login1 from "./Pages/Login1"
+  // import Homepage1 from "./Pages/Homepage1"
+  // import ExerciseDete from './Pages/ExerciseDete'
+  // import { AuthProvider } from "./context/AuthContext"
+  // import LoginChat from "./Pages/LoginChat"
+  // import Calculator from "./Pages/Calculator"
           
  
-  import { Route, Routes } from "react-router-dom"
-  import Homemain from "./Pages/Homemain"
-  import Signup1 from "./Pages/Signup1"
-  import Login1 from "./Pages/Login1"
-  import Homepage1 from "./Pages/Login1"
-  import ExerciseDete from './Pages/ExerciseDete'
-  import { AuthProvider } from "./context/AuthContext"
-  import LoginChat from "./Pages/LoginChat"
-  import { PrivateRoute } from "./routes/PrivateRoute"
-  import ChatRoom from "./Pages/ChatRoom"
-  import Calculator from "./Pages/Calculator"
-import Caht22 from "./Caht22"
+
+
   
   // import LoginChat from './Pages/LoginChat'
   function App() {
   return (
       <>
-       {/* <Calculator/>  */}
-     <Routes>
-       <Route path = "/" element={<Homemain/>}>
-         </Route>
-         <Route path = "/signup1" element={<Signup1/>}></Route>
-         <Route path = "/Login1" element={<Login1/>}></Route>
-         <Route path="/Homepage1" element={<Homepage1/>}></Route>
-         <Route path="/ExerciseDete" element={<ExerciseDete/>}></Route>
-         <Route path="/Calculator" element={<Calculator/>}></Route>
-         <Route path="/chatloginn" element={<Caht22/>}></Route>
+   
+{/*        
+         <Routes>
+      <Route path = "/" element={<Homemain/>}></Route>
+       <Route path = "/signup1" element={<Signup1/>}></Route>
+       <Route path = "/Login1" element={<Login1/>}></Route>
+       <Route path="/ExerciseDete" element={<ExerciseDete/>}/>
+       <Route path="/Calculator" element={<Calculator/>}/>
+       <Route path="/Homepage1" element={<Homepage1/>}></Route>
+       <Route path="/chat" element={<AuthProvider/>}></Route>
+       <Route path="chatloginn" element={<LoginChat/>}></Route> */}
+   
+ *
+
+       {/* <Route path="/chat" element={<AuthProvider>
         
-    </Routes> 
-    <Routes></Routes>
+       
+  
+     
+    
+
+{/* 
+<AuthProvider>
+       
+  
+       <Routes>
+         <Route path="/" element={<LoginChat />} />
+         <Route
+           path="/chatloginn"
+           element={
+             <PrivateRoute>
+               <ChatRoom />
+             </PrivateRoute>
+           }
+         />
+       </Routes>
+       </AuthProvider> */}
   
       </>
     )
@@ -80,17 +101,4 @@ import Caht22 from "./Caht22"
   
   export default App
             
-           {/* <AuthProvider>
      
-      <Routes>
-        <Route path="/" element={<LoginChat />} />
-        <Route
-          path="/chatloginn"
-          element={
-            <PrivateRoute><ChatRoom /></PrivateRoute>
-              
-            
-          }
-        />
-      </Routes>
-      </AuthProvider>*/}
