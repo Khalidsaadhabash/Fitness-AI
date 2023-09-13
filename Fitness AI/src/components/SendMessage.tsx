@@ -48,12 +48,12 @@ const SendMessage: React.FC = () => {
         />
         <button
           type="submit"
-          className="w-auto bg-gray-500 text-white rounded-r-lg px-5 text-sm"
+          className="w-auto bg-orange-200 text-slate-800 rounded-r-lg px-5 text-sm"
         >
           Send
         </button>
 
-        <a className="btn btn-ghost normal-case text-lg text-slate-500">
+        <a className="btn btn-ghost normal-case text-lg text-slate-600 bg-orange-200">
  {currentUser ?  <button onClick={handleLogeout}>Logout</button>:""}</a>
 
   

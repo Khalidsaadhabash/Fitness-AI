@@ -4,6 +4,8 @@ import axios from 'axios';
 // import ReactPaginate from 'react-paginate';
 import { Box, Button } from '@mui/material';
 import Calculator from './Calculator';
+import Navbarpages from '../components/Navbarpages';
+import Footer from '../components/Footer';
 
 interface Exercise {
   id: string;
@@ -64,7 +66,9 @@ const App: React.FC = () => {
   };
   const uniqueBodyParts = [...new Set(exercises.map((exercise) => exercise.bodyPart))];
   return (
+    <>
     
+    <Navbarpages/>
     <div className="container mx-auto p-4 bg-white">
    
       <div className="text-2xl font-bold text-gray-100 md:text-7xl">
@@ -121,6 +125,8 @@ const App: React.FC = () => {
             nextLinkClassName="px-3 py-1 rounded-md bg-white border border-gray-300 hover:bg-gray-200"
           /> */}
     </div>
+   <Footer></Footer>
+    </>
   );
 };
 

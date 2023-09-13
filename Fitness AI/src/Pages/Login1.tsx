@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
-import Vedio from "../Imges/production_id_4367573 (1080p).mp4";
+import Vedio from "../Video/production_id_4367573 (1080p).mp4";
 import Navbarmain from '../components/Navbarmain';
 import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';

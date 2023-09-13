@@ -21,8 +21,8 @@ const Message: React.FC<MessageProps> = ({ message }) => {
             <img src={message.avatar} alt="Avatar" />
           </div>
         </div>
-        <div className="chat-header">{message.name}</div>
-        <div className="chat-bubble">{message.text}</div>
+        <div className="chat-header text-black ">{message.name}</div>
+        <div className="chat-bubble bg-orange-300 text-stone-50">{message.text}</div>
       </div>
     </div>
   );

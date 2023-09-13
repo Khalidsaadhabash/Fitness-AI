@@ -1,4 +1,4 @@
-import Vedio from "../Imges/production_id_4367573 (1080p).mp4";
+import Vedio from "../Video/production_id_4367573 (1080p).mp4";
 import { useState } from 'react';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
