@@ -25,9 +25,9 @@ Here is the same link, but as a [reference-style link][link-text].
 <img width="414" alt="Screenshot 2023-09-13 221447" src="https://github.com/Khalidsaadhabash/Fitness-AI/assets/132256722/b6ef7277-4d31-41b6-a947-fa202d9c765d"/>
 <img width="303" alt="Screenshot 2023-09-13 221522" src="https://github.com/Khalidsaadhabash/Fitness-AI/assets/132256722/486f3d18-ee7d-47a7-b885-d7a736201cde"/>
 <img width="304" alt="Screenshot 2023-09-13 221617" src="https://github.com/Khalidsaadhabash/Fitness-AI/assets/132256722/96afb0a0-74ff-4af5-86cd-5690f637b09e"/>
-f9">
+
 <img width="304" alt="Screenshot 2023-09-13 221604" src="https://github.com/Khalidsaadhabash/Fitness-AI/assets/132256722/20d6833d-ddcd-4c90-8456-b34af487e57e"/>
-b">
+
 
 </div>
 <hr>
