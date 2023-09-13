@@ -3,7 +3,7 @@
 </h3>
 
 <hr>
-This is an [inline link]([https://www.example.com](https://www.figma.com/file/zi2WokEzd9Q4rKaWzxbKub/Untitled?type=design&node-id=19-65&mode=design&t=uZcAStU0rPHa0PM4-0)) to a website.
+This is an [Figma link]([https://www.example.com](https://www.figma.com/file/zi2WokEzd9Q4rKaWzxbKub/Untitled?type=design&node-id=19-65&mode=design&t=uZcAStU0rPHa0PM4-0)) to a website.
 
 Here is the same link, but as a [reference-style link][link-text].
 
