@@ -1,12 +1,11 @@
 # Fitness-AI
-<h3>Fitness AI” will be a central health management system that supports online lifestyle operations, where people participating in the site can access the system and benefit from the services. The system will also display fitness and recommend some exercises that the individual can do at home without facing any health problems. He can also talk to the coach for advice and education.![image](https://github.com/Khalidsaadhabash/Fitness-AI/assets/132256722/302f3649-c213-4b2d-9ce1-36020ea43b86)
+<h3>Fitness AI” will be a central health management system that supports online lifestyle operations, where people participating in the site can access the system and benefit from the services. The system will also display fitness and recommend some exercises that the individual can do at home without facing any health problems. He can also talk to the coach for advice and education.
 </h3>
 
 
 
 <p>figma desgin link:</p>
-<a>
-https://www.figma.com/file/zi2WokEzd9Q4rKaWzxbKub/Untitled?type=design&node-id=19-65&mode=design&t=uZcAStU0rPHa0PM4-0</a>
+<a herf='https://www.figma.com/file/zi2WokEzd9Q4rKaWzxbKub/Untitled?type=design&node-id=19-65&mode=design&t=uZcAStU0rPHa0PM4-0'/>
 <hr>
 After pull :
 
