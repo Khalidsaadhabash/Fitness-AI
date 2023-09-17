@@ -9,8 +9,8 @@ export default function Homemain() {
     <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2 font-sans z-40 ">
                 <div>
                     <div className="flex justify-start mt-36 ">
-                        <button className="px-4 py-3   rounded bg-slate-900 text-gray-100  md:mx-2 font-bold border-2 bg-opacity-10 border-white hover:bg-slate-100 hover:bg-opacity-20 "> <a href="/Signup1">Join now</a></button>
-                        <button className="mx-4 px-4 py-3  text-gray-100  hover:bg-gray-500 md:mx-2 font-bold bg-orange-500 bg-opacity-80 hover:bg-opacity-60 "><a href="/Login1">Log in</a></button>
+                        <button className="px-4 py-3   rounded bg-slate-900 text-gray-100  md:mx-2 font-bold border-2 bg-opacity-10 border-white hover:bg-slate-100 hover:bg-opacity-20 "> <a href="/Signup">Join now</a></button>
+                        <button className="mx-4 px-4 py-3  text-gray-100  hover:bg-gray-500 md:mx-2 font-bold bg-orange-500 bg-opacity-80 hover:bg-opacity-60 "><a href="/Login">Log in</a></button>
                     </div>
                 </div>
      </div>

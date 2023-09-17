@@ -18,7 +18,7 @@ export default function Navbar() {
             </div>
         </div>
         <div className="flex flex-col md:flex-row md:block -mx-2">
-            <a href="/chatloginn" className="py-2 px-2 rounded bg-orange-500 text-gray-100  md:mx-2 font-bold bg-opacity-40 hover:bg-slate-400 hover:bg-opacity-30">Messages</a>
+            <a href="http://localhost:5175/chat/" className="py-2 px-2 rounded bg-orange-500 text-gray-100  md:mx-2 font-bold bg-opacity-40 hover:bg-slate-400 hover:bg-opacity-30">Messages</a>
             <a href="/ExerciseDete" className="py-2 px-2 rounded bg-orange-500 text-gray-100  md:mx-2 font-bold bg-opacity-40  hover:bg-slate-400 hover:bg-opacity-30">Exercise lists</a>
             <a href="/Calculator" className="py-2 px-2 rounded bg-orange-500 text-gray-100  md:mx-2 font-bold bg-opacity-40 hover:bg-slate-400 hover:bg-opacity-30" >calculate fitness </a>
 <a href="./">

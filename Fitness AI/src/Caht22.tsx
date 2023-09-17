@@ -14,9 +14,7 @@ export default function Caht22() {
       <Route
         path="/"
         element={
-          <PrivateRoute><ChatRoom /></PrivateRoute>
-            
-          
+          <PrivateRoute><ChatRoom /></PrivateRoute>  
         }
       />
     </Routes>
