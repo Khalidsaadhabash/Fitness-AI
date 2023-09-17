@@ -63,7 +63,7 @@ type userInfo ={
             iconColor: 'green'
           })
           // localStorage.setItem("Login","true")
-          navi("/Homepage1");
+          navi("/Homepage");
         }
     }
   return (
@@ -113,7 +113,7 @@ type userInfo ={
               </div>
   
               <div className="mb-6">
-                <a href="/Login1">
+                <a href="/Login">
                   <p className="text-gray-700 text-l text-center">Already have an account?</p>
                 </a>
               </div>

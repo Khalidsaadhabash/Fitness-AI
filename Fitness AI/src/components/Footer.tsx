@@ -4,7 +4,7 @@ export const Footer = () => {
           <footer className="  bottom-0 w-full flex-wrap items-center justify-between  text-center text-orange-500   bg-gray-100">
           <div className="px-6 pt-6 ">
           <div className="mb-6 flex justify-center ">
-        <a    href="#!"
+        <a    href="https://www.linkedin.com/in/asma-alenzi/"
               type="button"
               className="m-1 h-9 w-9 rounded-full border-2 border-orange-500 uppercase leading-normal text-orange-500 transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
               data-te-ripple-init
@@ -19,7 +19,7 @@ export const Footer = () => {
               </svg>
         </a>
   
-        <a href="#!"
+        <a href="https://github.com/Khalidsaadhabash"
           type="button"
           className="m-1 h-9 w-9 rounded-full border-2 border-orange-500 uppercase leading-normal text-orange-500 transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
           data-te-ripple-init

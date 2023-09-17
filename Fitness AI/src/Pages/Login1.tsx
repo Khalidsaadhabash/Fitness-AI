@@ -21,7 +21,7 @@ export const Login1 = () => {
 
   const navigate = useNavigate();
 
-  const login = () => {
+  const login1 = () => {
     axios.get(`https://64edeb521f872182714202f9.mockapi.io/InformationUser`)
       .then((response) => {
         const matchedAccount = response.data.find(
@@ -38,7 +38,7 @@ export const Login1 = () => {
           });
           
           // localStorage.setItem("Login","true")
-          navigate("/Homepage1");
+          navigate("/Homepage");
         } else {
           Swal.fire({
             icon: 'error',
@@ -92,7 +92,7 @@ export const Login1 = () => {
                   />
                 </div>
                 <div className="mb-6">
-                  <a href="/Signup1">
+                  <a href="/Signup">
                     <p className="text-gray-700 text-l text-center">Didn't Sign Up?</p>
                   </a>
                 </div>
@@ -100,7 +100,7 @@ export const Login1 = () => {
                   <button
                     className="rounded-xl text-white px-6 py-3 text-base mb-1 transition duration-200 bg-gray-700 hover:text-white   md:mx-2 border-2 bg-opacity-80 border-white hover:bg-gray-900 hover:bg-opacity-50 "
                     type="button"
-                    onClick={login}
+                    onClick={login1}
                   >
                     Log in
                   </button>

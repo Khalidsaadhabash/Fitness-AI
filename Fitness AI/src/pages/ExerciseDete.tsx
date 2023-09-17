@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Navbarpages from '../components/Navbarpages';
 // import ReactPaginate from 'react-paginate';
 
 
@@ -31,6 +32,11 @@ const App: React.FC = () => {
           method: 'GET',
           url: 'https://exercisedb.p.rapidapi.com/exercises',
           headers: {
+            //
+            //
+            'x-rapidapi-key': 'ecdd69af15mshe176c9d1be621aep1026fcjsn030fc117abc2',
+            //'X-RapidAPI-Key': '900cd10414mshf67e0fca351df81p1b073djsn5816b1d4c9f9',
+            
             'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
           }
         };
@@ -53,9 +59,10 @@ const App: React.FC = () => {
   return (
     
     <div className="container mx-auto p-4 bg-white">
+      <Navbarpages/>
    
-      <div className="text-2xl font-bold text-gray-100 md:text-7xl">
-            <p className='text-black'>Fitness <span className=' text-orange-400'>AI</span></p>
+      <div className="text-2xl font-bold text-gray-100 md:text-5xl">
+            <p className='text-black'>Exercises <span className=' text-orange-400'>Fitness</span></p>
             </div>
             <br></br>
      

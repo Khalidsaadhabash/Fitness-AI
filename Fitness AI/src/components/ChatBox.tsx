@@ -44,7 +44,7 @@ const ChatBox: React.FC = (props:any) => {
  
 
   return (
-    <div className="h-100 bg-slate-50 pb-44 pt-20 containerWarp ">
+    <div className="h-fit bg-slate-50 fixed pb-44 pt-20 containerWarp ">
       
       
       {messages.map((message) => (

@@ -183,28 +183,28 @@ const App: React.FC = () => {
     <div className="h-screen bg-gray-100 flex items-center justify-center">
 
       <div className="">
-        <h1 className="text-3xl font-bold text-orange-500 mb-6">Fitness Calculator</h1>
+        <h1 className="text-3xl font-bold text-orange-500 mb-6 ">Fitness Calculator</h1>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="height">
+            <label className="block text-gray-700 text-lg font-bold mb-2" htmlFor="height">
               Height (cm)
             </label>
             <input
               type="text"
               id="height"
-              className="border border-gray-300 rounded-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border border-gray-300 rounded-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 bg-slate-400 text-white"
               value={height}
               onChange={handleHeightChange}
             />
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="weight">
+            <label className="block text-gray-700 text-lg font-bold mb-2" htmlFor="weight">
               Weight (kg)
             </label>
             <input
               type="text"
               id="weight"
-              className="border border-gray-300 rounded-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border border-gray-300 rounded-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 bg-slate-400 text-white"
               value={weight}
               onChange={handleWeightChange}
             />
@@ -217,12 +217,12 @@ const App: React.FC = () => {
           </button>
         </form>
         {bmi && (
-          <div className="mt-6">
-            <h2 className="text-xl font-bold text-orange-500 mb-2">BMI</h2>
+          <div className="mt-6 flex-row">
+            <h2 className="text-xl font-bold text-orange-500 mb-2">Your body mass is:</h2>
             <p className="text-2xl text-gray-700 mb-2">{bmi}</p>
-            <h2 className="text-xl font-bold text-orange-500 mb-2">BMR</h2>
+            <h2 className="text-xl font-bold text-orange-500 mb-2">Your body's fat burning rate:</h2>
             <p className="text-2xl text-gray-700 mb-2">{bmr}</p>
-            <h2 className="text-xl font-bold text-orange-500 mb-2">TDEE</h2>
+            <h2 className="text-xl font-bold text-orange-500 mb-2">The calories your body consumes:</h2>
             <p className="text-2xl text-gray-700 mb-2">{tdee}</p>
           </div>
         )}
